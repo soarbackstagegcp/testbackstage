@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testbackstage
+  annotations:
+    github.com/project-slug: soarbackstagegcp/testbackstage
+spec:
+  type: other
+  lifecycle: unknown
+  owner: my-group test
