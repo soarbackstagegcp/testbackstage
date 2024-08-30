@@ -1,0 +1,44 @@
+{
+    "apiVersion": "backstage.io/v1alpha1",
+    "kind": "Component",
+    "metadata": {
+        "description": "CSV service record, you can find here all needed information for service integration",
+        "labels": {
+            "example.com/custom": "Credentials",
+            "platform": ""
+        },
+        "links": [
+            {
+                "url": "https://goto.google.com/chronicle-soar-lab-home",
+                "title": "Integration Team",
+                "icon": "user",
+                "type": "admin-dashboard"
+            },
+            {
+                "url": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/csv",
+                "title": "Marketplace integration",
+                "icon": "group",
+                "type": "admin-dashboard"
+            },
+            {
+                "url": "",
+                "title": "Credentials",
+                "icon": "dashboard",
+                "type": "admin-dashboard"
+            },
+            {
+                "url": "Not Found in Secret Manager in secret manager",
+                "title": "URI",
+                "icon": "web",
+                "type": "admin-dashboard"
+            }
+        ],
+        "name": "CSV"
+    },
+    "spec": {
+        "lifecycle": "production",
+        "owner": "chronicle-soar-lab",
+        "type": "website",
+        "system": "chronicle"
+    }
+}
